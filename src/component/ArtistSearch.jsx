@@ -12,7 +12,7 @@ const ArtistSearch = () => {
   const [selectedArtist, setSelectedArtist] = useState(null);
   const [error, setError] = useState('');
 
-  const API_BASE_URL = 'http://localhost:3000/api';
+  const API_BASE_URL = 'https://musicartist-backend.onrender.com/api';
 
   // Search artists
   const searchArtists = async (query) => {
